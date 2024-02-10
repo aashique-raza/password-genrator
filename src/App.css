@@ -1,0 +1,63 @@
+/* PasswordGenerator.css */
+.password-generator {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.8);
+  background-color: white;
+  position: relative;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options-container {
+  margin-bottom: 10px;
+}
+
+.options-container label {
+  margin-right: 10px;
+}
+
+.options-container input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+
+.options-container span {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.options-container .copymessage{
+  position: absolute;
+  top: 15%;
+   text-align: center;
+   color: rgba(255, 0, 0, 0.741);
+   font-size: 14px;
+   text-transform: lowercase;
+   right: 50%;
+}
